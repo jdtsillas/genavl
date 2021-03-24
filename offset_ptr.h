@@ -1,5 +1,3 @@
-// Copyright (c) 2016 Viasat Inc. All rights reserved.
-
 //////////////////////////////////////////////////////////////////////////////
 //
 // (C) Copyright Ion Gaztanaga 2005-2015. Distributed under the Boost
