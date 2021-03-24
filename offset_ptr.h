@@ -8,8 +8,8 @@
 //
 //////////////////////////////////////////////////////////////////////////////
 
-#ifndef THIRD_PARTY_VIASAT_LIBINSTRUMENTATION_INCLUDE_OFFSET_PTR_H_
-#define THIRD_PARTY_VIASAT_LIBINSTRUMENTATION_INCLUDE_OFFSET_PTR_H_
+#ifndef OFFSET_PTR_H_
+#define OFFSET_PTR_H_
 
 #include <cstdint>
 #include <iterator>
@@ -596,4 +596,4 @@ offset_ptr<T1, P1, O1> reinterpret_pointer_cast(
   return offset_ptr<T1, P1, O1>(r, impl::reinterpret_cast_tag());
 }
 
-#endif  // THIRD_PARTY_VIASAT_LIBINSTRUMENTATION_INCLUDE_OFFSET_PTR_H_
+#endif  // OFFSET_PTR_H_
