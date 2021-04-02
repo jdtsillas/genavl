@@ -52,7 +52,7 @@ class pointer_uintptr_caster<T*> {
 // is not standard conforming and this can be optimized-away by the compiler.
 // Non-inlining is a method to remain illegal but correct
 
-// Undef VIASAT_OFFSET_PTR_INLINE_XXX if your compiler can inline
+// Undef OFFSET_PTR_INLINE_XXX if your compiler can inline
 // this code without breaking the library
 
 ////////////////////////////////////////////////////////////////////////
